@@ -117,3 +117,53 @@ h1 {
   font-size: 24px;
   line-height: 36px;
 }
+
+#universities {
+  background: #0E0E0E;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#universities h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 41px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+#universities p {
+  max-width: 818px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #E7E7E7;
+  margin-bottom: 29px;
+  margin: 0;
+  margin-bottom: 29px;
+}
+
+#universities div {
+  max-width: 818px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#universities img {
+  height: 79px;
+  margin-right: 31px;
+}
+
+#universities img:last-child {
+  margin-right: unset;
+}
