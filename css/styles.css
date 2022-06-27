@@ -345,3 +345,41 @@ h1 {
   height: 100%;
   position: absolute;
 }
+
+#popular-contents {
+  margin: 48px;
+}
+
+#popular-contents h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0;
+  margin-bottom: 33px;
+  color: var(--principal-color);
+}
+
+#popular-contents-list {
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+
+#popular-contents-list div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+#popular-contents-list div b {
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 7px;
+  font-size: 20px;
+}
+
+#popular-contents-list div a {
+  color: #5F5F5F;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
