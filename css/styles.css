@@ -359,26 +359,26 @@ h1 {
   color: var(--principal-color);
 }
 
-#popular-contents-list {
+.popular-contents-list {
   display: flex;
   margin-bottom: 32px;
   justify-content: space-between;
 }
 
-#popular-contents-list div {
+.popular-contents-list div {
   display: flex;
   flex-direction: column;
   margin-right: 100px;
 }
 
-#popular-contents-list div b {
+.popular-contents-list div b {
   font-weight: 600;
   line-height: 24px;
   margin-bottom: 7px;
   font-size: 20px;
 }
 
-#popular-contents-list div a {
+.popular-contents-list div a {
   color: #5F5F5F;
   margin-bottom: 4px;
   font-size: 20px;
@@ -402,6 +402,7 @@ h1 {
   max-width: 650px;
   color: var(--principal-color);
   margin-bottom: 9px;
+  margin-top: 0;
 }
 
 #find-course p {
@@ -471,4 +472,132 @@ footer h3 {
 .footer-vertical a {
   color: #5F5F5F;
   margin-bottom: 4px;
+}
+
+#headsection-login {
+  display: none;
+  margin-top: 12px;
+}
+
+#headsection-login button {
+  border: 3px solid var(--principal-color);
+  background-color: transparent;
+}
+
+@media screen and (max-width: 728px) {
+  header {
+    align-items: center;
+    justify-content: center;
+  }
+
+  header div {
+    display: none;
+  }
+
+  #headsection, #universities, #courses, #vision, #find-course {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  #popular-contents {
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+  }
+
+  #headsection-login {
+    display: block;
+  }
+
+  #headsection-headlines {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: unset;
+  }
+
+  #headsection-headlines h2 {
+    font-size: 24px;
+    line-height: unset;
+    text-align: center;
+  }
+
+  #headsection-headlines button, #find-course button {
+    width: 100%;
+  }
+  
+  .course-list {
+    flex-direction: column;
+  }
+
+  .course {
+    margin-bottom: 14px;
+  }
+
+  #vision {
+    flex-direction: column;
+  }
+
+  #vision img {
+    display: none;
+  }
+
+  #vision div {
+    padding: unset;
+  }
+
+  #vision div h2 {
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+  }
+
+  #vision div p {
+    font-size: 22px;
+    line-height: unset;
+    text-align: center;
+  }
+
+  .popular-contents-list {
+    flex-direction: column;
+  }
+
+  .popular-contents-list div {
+    margin-right: unset;
+    margin-bottom: 12px;
+  }
+
+  #find-course {
+    text-align: center;
+  }
+
+  #find-course h2 {
+    font-size: 50px;
+    line-height: unset;
+  }
+
+  #find-course img {
+    display: none;
+  }
+
+  #footer-header {
+    align-items: center;
+    justify-content: center;
+  }
+
+  #networks {
+    display: none;
+  }
+
+  .footer-verticals {
+    flex-direction: column;
+  }
+
+  .footer-vertical {
+    margin-bottom: 20px;
+  }
 }
