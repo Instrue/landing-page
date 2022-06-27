@@ -412,3 +412,63 @@ h1 {
   margin: 0;
   margin-bottom: 38px;
 }
+
+footer {
+  background-color: #FCFCFC;
+  padding: 48px;
+}
+
+footer h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 41px;
+  margin: 0;
+  color: var(--principal-color);
+}
+
+#footer-header {
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#networks {
+  display: flex;
+}
+
+#networks a {
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  background: var(--principal-color);
+  margin-right: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#networks a:last-child {
+  margin-right: unset;
+}
+
+.footer-vertical {
+  display: flex;
+  flex-direction: column;
+  margin-right: 42px;
+}
+
+.footer-verticals {
+  display: flex;
+}
+
+.footer-vertical b {
+  color: var(--principal-color);
+  margin-bottom: 7px;
+}
+
+.footer-vertical a {
+  color: #5F5F5F;
+  margin-bottom: 4px;
+}
