@@ -295,3 +295,53 @@ h1 {
   font-size: 14px;
   font-weight: 500;
 }
+
+#vision {
+  background: url(../img/vision-background.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+#vision * {
+  z-index: 3;
+}
+
+#vision div {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-left: 48px;
+  max-width: 650px;
+}
+
+#vision div h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 41px;
+}
+
+#vision div p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 51px;
+  color: #EBEBEB;
+}
+
+#vision img {
+  align-self: flex-end;
+  height: 100%;
+}
+
+#vision::after {
+  content: '';
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.76);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
