@@ -494,14 +494,17 @@ footer h3 {
     display: none;
   }
 
-  #headsection, #universities, #courses, #vision, #find-course {
+  #headsection, #universities, #vision, #find-course {
     padding-left: 12px;
     padding-right: 12px;
   }
 
-  #popular-contents {
+  #popular-contents, #courses {
     margin-left: 12px;
     margin-right: 12px;
+  }
+
+  #popular-contents {
     text-align: center;
   }
 
@@ -516,12 +519,12 @@ footer h3 {
   
   h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     line-height: unset;
   }
 
   #headsection-headlines h2 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: unset;
     text-align: center;
   }
@@ -599,5 +602,9 @@ footer h3 {
 
   .footer-vertical {
     margin-bottom: 20px;
+  }
+
+  .course-list {
+    align-items: center;
   }
 }
