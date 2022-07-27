@@ -164,6 +164,7 @@ h1 {
 #universities img {
   height: 79px;
   margin-right: 31px;
+  margin-bottom: 12px;
 }
 
 #universities img:last-child {
@@ -690,5 +691,14 @@ footer h3 {
     height: auto;
     margin: 0;
     margin-bottom: 28px;
+  }
+
+  #universities div {
+    flex-direction: column;
+  }
+
+  #universities div img {
+    margin-right: 0;
+    margin-bottom: 24px;
   }
 }
